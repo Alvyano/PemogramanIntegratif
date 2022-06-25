@@ -62,3 +62,92 @@
 
 ### Alvyano Rizqilla R - 1202190035
 
+---
+### **TAHAP 2 - RSS**
+---
+
+• Change DB_DATABASE in .env according to the database name created in phpmyadmin
+
+![](Gambar/122.PNG)
+
+![](Gambar/111.PNG)
+
+• Create 2 tables rss and news with the migrations feature using the command
+
+![](Gambar/133.PNG)
+
+• Add the name and url columns to the rss table, as shown in the image below
+
+![](Gambar/15.PNG)
+
+• Add title, img_url, description, source_url, and rss_id columns to the news table, as shown in the image below
+
+![](Gambar/14.PNG)
+
+• To run the migration that was created, run the command in the terminal as below, then check the database
+
+![](Gambar/16.PNG)
+
+![](Gambar/17.PNG)
+
+• Create model connection to database by creating seeders and controllers for Rss and News tables, with command
+
+![](Gambar/18.PNG)
+
+• Edit the Rss.php, RssSeeder.php and DatabaseSeeder.php files as shown in the image below
+
+![](Gambar/19.PNG)
+
+![](Gambar/20.PNG)
+
+![](Gambar/21.PNG)
+
+• Then check the connection with the command
+
+![](Gambar/22.PNG)
+
+• Edit the News.php file, News Controller.php, web.php, along with the News migration file as shown below
+
+![](Gambar/24.PNG)
+
+![](Gambar/25.PNG)
+
+![](Gambar/26.PNG)
+
+![](Gambar/27.PNG)
+
+• Check localhost at http://127.0.0.1:8000/aggregrate/1 and in the phpmyadmin database
+
+![](Gambar/28.PNG)
+
+![](Gambar/29.PNG)
+
+![](Gambar/30.PNG)
+
+![](Gambar/31.PNG)
+
+![](Gambar/32.PNG)
+
+![](Gambar/33.PNG)
+
+![](Gambar/34.PNG)
+
+![](Gambar/35.PNG)
+
+![](Gambar/36.PNG)
+
+• Check localhost at http://127.0.0.1:8000/aggregrate/2 and in the phpmyadmin database
+
+![](Gambar/38.PNG)
+
+![](Gambar/39.PNG)
+
+• Check localhost at http://127.0.0.1:8000/aggregrate/3 and in the phpmyadmin database
+
+![](Gambar/40.PNG)
+
+![](Gambar/41.PNG)
+
+### **Alvyano Rizqilla R - 1202190035**
+**HATUR NUHUN**
+
